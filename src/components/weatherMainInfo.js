@@ -8,6 +8,7 @@ export default function WeatherMainInfo({ weather }){
         </div>
         <div>{weather?.current.condition.text}</div>
         <div>{weather?.current.temp_c}</div>
+        <div>{weather?.current.temp_c}</div>
     </div>
     );
 }
